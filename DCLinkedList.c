@@ -1,4 +1,4 @@
-#include "CLinkedList.h"
+#include "DCLinkedList.h"
 
 LinkedList* createLinkedList() {
 	LinkedList* li = (LinkedList*)malloc(sizeof(LinkedList));
