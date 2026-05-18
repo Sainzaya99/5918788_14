@@ -122,14 +122,14 @@ LinkedList* deleteAtLinkedList(LinkedList* li, int at) {
 	return li;
 }
 void printLinkedList(LinkedList* li) {
-	Node* nptr = li->head;
-
-	printf("List: ");
-
 	if (li == NULL || li->head == NULL) {
 		printf("empty\n");
 		return;
 	}
+	
+	Node* nptr = li->head;
+
+	printf("List: ");
 
 	for (int i = 0; i < li->size; i++) {
 		printf("%d ", nptr->data);
